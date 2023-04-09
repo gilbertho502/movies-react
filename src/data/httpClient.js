@@ -1,4 +1,4 @@
-const API = 'https://api.themoviedb.org/3'
+const API = process.env.REACT_APP_PELICULAS_API
 
 export function Get(path) {
     return fetch(API+path,{

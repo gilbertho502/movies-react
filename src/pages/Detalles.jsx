@@ -28,8 +28,8 @@ const Detalles = ()=> {
                     <strong>Titulo: </strong>
                     {movie.title}
                 </h4>
-                <p>Genero: {generos.name}</p>
-                <p>Descripcion: {movie.overview}</p>
+                <p>Genere: {generos.name}</p>
+                <p>Description: {movie.overview}</p>
             </div>
         </div>
     )
