@@ -4,7 +4,7 @@ import { Detalles } from '../pages/Detalles'
 
 const MyRoutes = ()=>{
     return(
-        <Router>
+        <Router basename='/app-peliculas'>
             <Routes>
                 <Route exact path='/' element={<LandingPage/>}/>
                 <Route exact path='/movies/:movieId' element={<Detalles/>}></Route>
