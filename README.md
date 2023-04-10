@@ -30,15 +30,15 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Instlar GH Pages
-npm install gh-pages
-package.json: 
-     "homepage": '.....'
-scripts:      
-     "deploy": "gh-pages -d build"
-# Paso 1
-npm run build
-# Paso 2
-npm run deploy
+npm install gh-pages .\
+package.json: .\
+     "homepage": '.....' \
+scripts:      .\
+     "deploy": "gh-pages -d build".\
+# Paso 1.\
+npm run build.\
+# Paso 2.\
+npm run deploy.\
 
 ### `npm run eject`
 
