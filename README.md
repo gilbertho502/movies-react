@@ -35,10 +35,10 @@ package.json: .\
      "homepage": '.....' \
 scripts:      .\
      "deploy": "gh-pages -d build".\
-# Paso 1.\
-npm run build.\
-# Paso 2.\
-npm run deploy.\
+#### Paso 1
+npm run build
+#### Paso 2
+npm run deploy
 
 ### `npm run eject`
 
